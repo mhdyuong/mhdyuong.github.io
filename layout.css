@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/*
+
+*/
+
+html {
+	height: 100%;
+	font-size: 14px;
+	background-color: rgba(176,124,48,1.00);
+	margin: 0px auto;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	clear: none;
+	float: none;
+	min-height: 100%;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	 box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	 max-width: 900px;
+	 padding-left: 0.9%;
+	 padding-right: 0.9%;
+	 background-color: white;
+}
+
+body > header > img 
+{
+	width: 100%;
+}
+
+h1
+{
+	color: brown;
+	text-align: center;
+	font-size: 2em;
+}
+nav 
+{
+	width: 25%;
+	float: left;
+	margin: 0% 0% 0% 0%;
+}
+/*  Font size of navigation*/
+nav ul li {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.2em;
+}
+
+/*helps highlight whole box choice when hovered over*/
+nav ul li a {
+	color: rgb(190, 136, 19);
+	text-decoration: none;
+	display: block;
+	
+}
+nav ul li a:visited {
+	color: #222;
+}
+nav ul li a:hover {
+	background-color: rgb(214, 138, 22);
+	color: white;
+}
+
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+
+/* Display nav horizontally and outlines each element*/
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	border: thin solid rgba(127,96,17,1.00);
+	
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+
+div 
+{
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div#pic1
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+div#pic2
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	
+    
+}
