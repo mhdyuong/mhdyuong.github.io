@@ -7,7 +7,7 @@
 html {
 	height: 100%;
 	font-size: 14px;
-	background-color: rgba(176,124,48,1.00);
+	background-color: rgba(176, 125, 48, 0.829);
 	margin: 0px auto;
 }
 
@@ -17,9 +17,9 @@ body {
 	clear: none;
 	float: none;
 	min-height: 100%;
-	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	 box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-moz-box-shadow: rgba(31, 61, 31, 0.753) 20px 0px 25px,  rgba(31, 61, 31, 0.822) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.849) 20px 0px 25px,  rgba(31, 61, 31, 0.829) -20px 0px 25px;
+	 box-shadow: rgba(31, 61, 31, 0.849) 20px 0px 25px,  rgba(31, 61, 31, 0.842) -20px 0px 25px;
 	 max-width: 900px;
 	 padding-left: 0.9%;
 	 padding-right: 0.9%;
@@ -29,6 +29,14 @@ body {
 body > header > img 
 {
 	width: 100%;
+	height: 100%;
+}
+
+p#para
+{
+	font-size: 1.3em;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 h1
@@ -76,7 +84,7 @@ nav ul li {
 	width: 15%;
 	text-align: center;
 	border: thin solid rgba(127,96,17,1.00);
-	
+	background-color: blanchedalmond;
 }
 nav {
 	display: table;
@@ -112,4 +120,15 @@ div#pic2
 	width: 30%;
 	
     
+}
+
+footer 
+{
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 4%;
+	border-top: 3px solid rgba(128,98,26,1.00);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
 }
