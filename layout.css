@@ -7,7 +7,7 @@
 html {
 	height: 100%;
 	font-size: 14px;
-	background-color: rgba(176, 125, 48, 0.829);
+	background-color: #F3CFC6;
 	margin: 0px auto;
 }
 
@@ -17,9 +17,9 @@ body {
 	clear: none;
 	float: none;
 	min-height: 100%;
-	-moz-box-shadow: rgba(31, 61, 31, 0.753) 20px 0px 25px,  rgba(31, 61, 31, 0.822) -20px 0px 25px;
-	-webkit-box-shadow: rgba(31, 61, 31, 0.849) 20px 0px 25px,  rgba(31, 61, 31, 0.829) -20px 0px 25px;
-	 box-shadow: rgba(31, 61, 31, 0.849) 20px 0px 25px,  rgba(31, 61, 31, 0.842) -20px 0px 25px;
+	-moz-box-shadow: rgba(61, 31, 52, 0.26) 20px 0px 25px,  rgba(31, 61, 31, 0.24) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.164) 20px 0px 25px,  rgba(31, 61, 31, 0.212) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.192) 20px 0px 25px,  rgba(31, 61, 31, 0.137) -20px 0px 25px;
 	 max-width: 900px;
 	 padding-left: 0.9%;
 	 padding-right: 0.9%;
