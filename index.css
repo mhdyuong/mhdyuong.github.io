@@ -1,0 +1,47 @@
+body{
+    background: #a7a6ba;
+     background: url("https://cdn1.epicgames.com/ue/product/Screenshot/HighresScreenshot00050-1920x1080-4c7393bde09dc5ce66f159423367260d.jpg?resize=1&w=1920");
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    padding-top: 25px;
+    font-family: Georgia;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 25px;
+    font-family: Georgia;
+  }
+  
+  #about{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-group{
+    text-align: center;
+  }
+  
+  /* styling the links to look like buttons  */
+  .external-buttons{
+    color: white;
+    font-family: Georgia;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #070B34;
+    margin: 10px 5px 10px 5px;
+  }
+  
