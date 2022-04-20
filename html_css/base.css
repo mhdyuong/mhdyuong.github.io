@@ -5,11 +5,8 @@ body{
   }
 
 .navbar{
-    padding: 10px;
-    height: 35px;
-    left: 0px; 
-    position: fixed;
-    top: 0px;
+  position: relative;
+  display: inline-block;
   }
 
 .navbuttons{
@@ -32,3 +29,51 @@ body{
     color: #070B34;
     
   }
+
+  .navBarDropdownBtn {
+  background-color: #484952;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  position: fixed;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    overflow: auto;
+    max-height: 100;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Georgia;
+   
+  }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+/* Show the dropdown menu on hover */
+.navbar:hover .dropdown-content {display: block;}
+
+.navBarDropdownBtn:hover{
+  background-color: #79797a;
+  
+}
